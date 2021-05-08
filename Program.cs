@@ -59,7 +59,7 @@ namespace WindowsFormsAppSAIKEt1
                     return;
                 }
 
-                //1回目の起動なのではじめからMainメソッドにあったコードを実行
+                //はじめからMainメソッドにあったコードを実行
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Form1());
